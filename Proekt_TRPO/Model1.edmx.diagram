@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d602e6af124c472caa921b98c1b3c3a4" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="TRPOModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Группы" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Должности" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Предметы" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Преподаватели" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Расписание" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Сотрудники" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Старосты" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TRPOModel.Студенты" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="TRPOModel.FK__Группы__IdСтарос__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Расписани__IdГру__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Студенты__IdГруп__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Сотрудник__IdДол__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Преподава__IdПре__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Расписани__IdПре__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="TRPOModel.FK__Расписани__IdПре__37A5467C" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TRPOModel.Посещаемость4337" Width="1.5" PointX="7.375" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
